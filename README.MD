@@ -11,6 +11,7 @@ The purpose of this project is to demonstrate your ability to collect, work with
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone.
 
 Files list:
+
 tidyData.csv data set  with the average of each variable for each activity and each subject
 README.MD
 CodeBook.MD :  List all the variables and summaries you calculated, along with units, and any other relevant information
