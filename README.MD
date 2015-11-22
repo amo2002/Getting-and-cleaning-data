@@ -13,8 +13,11 @@ One of the most exciting areas in all of data science right now is wearable comp
 Files list:
 
 tidyData.csv data set  with the average of each variable for each activity and each subject
-README.MD
+
+README.MD: Explain what the analysis files did
+
 CodeBook.MD :  List all the variables and summaries you calculated, along with units, and any other relevant information
+
 run_analysis.R: The script to be run to get the intended results
 
 Usage
