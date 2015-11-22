@@ -67,9 +67,11 @@ meltedData <- melt(trainTestData, id=c("subjectID","activity"))
 tidyData <- dcast(meltedData, subjectID + activity ~ variable, mean)
 
 # write the result as  a.csv file
-write.csv(tidyResult, "tidyData.csv", row.names=FALSE)
+write.csv(tidyData, "tidyData.csv", row.names=FALSE)
 
+# write the result as text
 
+write.table(tidyData, "tidyData.txt", sep="\t")
 
 
 
